@@ -111,6 +111,20 @@ docsify serve .
 
 ### Gittalk
 
+申请一个 [OAuth application](https://github.com/settings/applications/new)
+
+`GitHub OAuth application`允许程序来操作你的github账户，可以对github中仓库读写。
+
+> Application name：必填，OAuth的名字
+>
+> Homepage URL：必填，你应用的网址，哪个网站用了Gitalk组件，就填写这个网址
+>
+> Application description：选填，该OAuth的说明
+>
+> Authorization callback URL：必填，授权成功后回调网址，跟`Homepage URL`参数保持一致就好
+>
+> 这些参数在注册成功后是可以修改。
+
 
 
 ### 添加封面
