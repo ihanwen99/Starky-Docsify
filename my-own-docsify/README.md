@@ -111,6 +111,8 @@ docsify serve .
 
 ### Gittalk
 
+[这篇博客讲的非常清晰](https://segmentfault.com/a/1190000018072952)
+
 申请一个 [OAuth application](https://github.com/settings/applications/new)
 
 `GitHub OAuth application`允许程序来操作你的github账户，可以对github中仓库读写。
@@ -284,3 +286,4 @@ window.$docsify = {
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 ```
 
+### Pagination - 分页导航
