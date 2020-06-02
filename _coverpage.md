@@ -6,8 +6,8 @@
 
 ### 上海交通大学 Shanghai Jiao Tong University
 
-[My-GitHub](https://github.com/david990917)
-[My-Docsify](/my-own-docsify/)
+[Github](https://github.com/david990917/Starky-Docsify)
+[Design](/my-own-docsify/)
 
 ![](_coverpage/cover.jpeg)
 
