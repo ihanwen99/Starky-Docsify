@@ -125,7 +125,9 @@ docsify serve .
 >
 > 这些参数在注册成功后是可以修改。
 
+注册完成后会进入 [OAuth Apps](https://github.com/settings/developers)
 
+需要里面的 **ClientID** 和 **Client Secret** 及相关信息添加进 index 里面的 js 代码即可。
 
 ### 添加封面
 

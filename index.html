@@ -26,7 +26,20 @@
             noData: '找不到结果',//搜索不到结果时显示
             paths: 'auto',//自动
             placeholder: '搜索',//搜索框提示
-        },
+      },
+      plugins: [
+        // remove url parameters before loading Gitalk
+        // as Gitalk uses location.href as id
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            var splited = location.href.split('?')
+            if (splited.length >= 2 && !splited[1].startsWith("code=")) {
+              location.href = location.href.split('?')[0]
+            }
+          });
+        }
+      ],
+
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -39,11 +52,11 @@
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
   const gitalk = new Gitalk({
-    clientID: 'Github Application Client ID',
-    clientSecret: 'Github Application Client Secret',
-    repo: 'Github repo',
-    owner: 'Github repo owner',
-    admin: ['Github repo collaborators, only these guys can initialize github issues'],
+    clientID: '40e34717eba550d1ace1',
+    clientSecret: 'ae707266376091be268a74105a5946d00d0db424',
+    repo: 'Starky-Docsify',
+    owner: 'david990917',
+    admin: ['david990917'],
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
