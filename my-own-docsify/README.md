@@ -305,3 +305,19 @@ window.$docsify = {
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
 ```
 
+### 字数统计
+
+```html
+count:{
+    countable:true,
+    fontsize:'0.9em',
+    color:'rgb(90,90,90)',
+    language:'chinese'
+  }
+```
+
+```html
+<!-- count -->
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+```
+
