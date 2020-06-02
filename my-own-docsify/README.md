@@ -91,6 +91,8 @@ docsify serve .
 
 ### Default SideBar
 
+侧边栏在 loadSidebar: true 的时候就不会自动渲染了。
+
 **关于侧边栏`_sidebar.md`文件的说明**
 
 - 如果只在根目录有一个`_sidebar.md`文件，那么所有页面都将使用这个一个配置，也就是所有页面的侧边栏都一样。
@@ -104,3 +106,4 @@ docsify serve .
 ```
 
 ### Gittalk
+

@@ -14,6 +14,6 @@ f.write("""
 
 for file in md_files:
 	filename=file[:-3]
-	f.write("### [{}]({})\n".format(filename,file))
+	f.write("### [{}](DayDayUp/{})\n".format(filename,file))
 
 f.close()
