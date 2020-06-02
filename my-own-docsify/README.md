@@ -321,3 +321,9 @@ count:{
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 ```
 
+### 语法高亮
+
+```html
+<script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+```
+
