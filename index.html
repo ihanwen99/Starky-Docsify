@@ -27,18 +27,6 @@
             paths: 'auto',//自动
             placeholder: '搜索',//搜索框提示
       },
-      plugins: [
-        // remove url parameters before loading Gitalk
-        // as Gitalk uses location.href as id
-        function(hook, vm) {
-          hook.beforeEach(function(html) {
-            var splited = location.href.split('?')
-            if (splited.length >= 2 && !splited[1].startsWith("code=")) {
-              location.href = location.href.split('?')[0]
-            }
-          });
-        }
-      ],
 
     }
   </script>
@@ -57,9 +45,16 @@
     repo: 'Starky-Docsify',
     owner: 'david990917',
     admin: ['david990917'],
+    title: location.hash.match(/#(.*?)([?]|$)/)[1],
+    id: location.hash.match(/#(.*?)([?]|$)/)[1],
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
+  window.onhashchange = function(event){
+      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+        location.reload()
+      }
+  }
 </script>
 </body>
 </html>
