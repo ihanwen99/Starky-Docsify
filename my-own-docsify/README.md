@@ -77,9 +77,9 @@ https://starky99.com/Starky-Docsify/#/
 
 ---
 
-### 我的定制
+# 我的定制
 
-##### Master Branch
+### Master Branch
 
 我觉得没有必要放在 `docs` 目录下面，放在主目录下面也可以！
 
@@ -89,12 +89,18 @@ https://starky99.com/Starky-Docsify/#/
 docsify serve .
 ```
 
-##### Default SideBar
+### Default SideBar
 
-##### copy to clipboard
+**关于侧边栏`_sidebar.md`文件的说明**
+
+- 如果只在根目录有一个`_sidebar.md`文件，那么所有页面都将使用这个一个配置，也就是所有页面的侧边栏都一样。
+- 如果一个子目录中有`_sidebar.md`文件，那么这个子目录下的所有页面将使用这个文件的侧边栏。
+- `_sidebar.md`的加载逻辑是从每层目录下获取文件，如果当前目录不存在该文件则回退到上一级目录。例如当前路径为`/zh-cn/more-pages`则从`/zh-cn/_sidebar.md`获取文件，如果不存在则从`/_sidebar.md`获取。
+
+### copy to clipboard
 
 ```html
 <script src="//unpkg.com/docsify-copy-code"></script>
 ```
 
-##### Gittalk
+### Gittalk
