@@ -327,3 +327,6 @@ count:{
 <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
 ```
 
+### 更多插件
+
+[awesom-plugins](https://docsify.js.org/#/awesome?id=plugins)
