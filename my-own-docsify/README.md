@@ -198,3 +198,17 @@ Simple Dark 主题
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 ```
 
+### 搜索
+
+```html
+window.$docsify = {
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            noData: '找不到结果',//搜索不到结果时显示
+            paths: 'auto',//自动
+            placeholder: '搜索',//搜索框提示
+        },
+    }
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+```
+
