@@ -142,3 +142,10 @@ _coverpage.md
 
 ​	2.背景图片和背景色只能有一个生效。
 
+### 配置个人头像
+
+```html
+logo: '/_media/hanwen.PNG',
+name: 'hanwen',
+```
+
