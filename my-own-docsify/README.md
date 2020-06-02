@@ -294,3 +294,4 @@ window.$docsify = {
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 ```
 
+详细配置信息请看[这里](https://github.com/imyelo/docsify-pagination#readme)
