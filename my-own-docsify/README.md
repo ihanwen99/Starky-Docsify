@@ -222,3 +222,9 @@ window.$docsify = {
 <script src="static/js/docsify.min.js"></script>
 ```
 
+### emoji
+
+```html
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+```
+
