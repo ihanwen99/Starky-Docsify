@@ -218,5 +218,7 @@ window.$docsify = {
 
 ```html
 <link rel="stylesheet" href="static/css/theme-simple-dark.css">
+
+<script src="static/js/docsify.min.js"></script>
 ```
 
