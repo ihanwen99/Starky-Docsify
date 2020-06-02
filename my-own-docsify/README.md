@@ -162,3 +162,39 @@ repo: 'https://github.com/david990917'
 ### TopMargin
 
 在滚动到指定的锚点时，距离页面顶部有一定空间。
+
+### 主题
+
+原生主题是 Vue
+
+```html
+<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+```
+
+尝试使用默认主题
+
+![img](README/2484592-aa2703f10c532c72.webp)
+
+```html
+<!-- Theme: Defaults -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
+```
+
+Simple 主题
+
+![img](README/2484592-d92a2bf986e01818.webp)
+
+```html
+<!-- Theme: Defaults -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
+```
+
+Simple Dark 主题
+
+![img](README/2484592-e08a636d9c21cb3d.webp)
+
+```html
+<!-- Theme: Simple Dark -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+```
+
