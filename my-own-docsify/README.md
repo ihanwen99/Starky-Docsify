@@ -107,3 +107,38 @@ docsify serve .
 
 ### Gittalk
 
+
+
+### 添加封面
+
+_coverpage.md
+
+```markdown
+<!-- _coverpage.md -->
+
+# Hanwen's Tech Blog
+
+> A magical documentation site generator.
+
+* Simple and lightweight (~12kb gzipped)
+* Multiple themes
+* Not build static html files
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#quick-start)
+
+<!-- 背景图片 -->
+![](_media/cover.jpeg)
+
+<!-- 背景色 -->
+![color](#C1E6C6)
+```
+
+记录样式
+
+![image-20200602151350738](README/image-20200602151350738.png)
+
+​	1.自定义背景配置一定要在`_coverpage.md`文档末尾。
+
+​	2.背景图片和背景色只能有一个生效。
+

@@ -1,5 +1,14 @@
 <!-- _coverpage.md -->
 
-![](_media/cover.jpeg)
+# 科技博客 Starky's Tech Blog
 
-![color](#f0f0f0)
+### 刘瀚文 Liu Hanwen
+
+### 上海交通大学 Shanghai Jiao Tong University
+
+[My-GitHub](https://github.com/david990917)
+[My-Docsify](/my-own-docsify/)
+
+![](_coverpage/cover.jpeg)
+
+![color](#C1E6C6)
