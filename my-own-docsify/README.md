@@ -324,7 +324,7 @@ count:{
 ### 语法高亮
 
 ```html
-<script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
 ```
 
 ### 更多插件
