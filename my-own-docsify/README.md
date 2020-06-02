@@ -101,8 +101,12 @@ docsify serve .
 
 ### copy to clipboard
 
+两个链接，使用哪一个都可以
+
 ```html
 <script src="//unpkg.com/docsify-copy-code"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 ```
 
 ### Gittalk
