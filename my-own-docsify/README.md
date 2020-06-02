@@ -129,6 +129,36 @@ docsify serve .
 
 需要里面的 **ClientID** 和 **Client Secret** 及相关信息添加进 index 里面的 js 代码即可。
 
+```html
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      	clientID: '40e34717eba550d1ace1',
+        clientSecret: 'ae707266376091be268a74105a5946d00d0db424',
+        repo: 'Starky-Docsify',
+        owner: 'david990917',
+        admin: ['david990917'],
+        title: location.hash.match(/#(.*?)([?]|$)/)[1],
+        id: location.hash.match(/#(.*?)([?]|$)/)[1],
+        // facebook-like distraction free mode
+        distractionFreeMode: false
+    })
+    // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+    window.onhashchange = function(event){
+      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+        location.reload()
+      }
+    }
+    // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
+    // gitalk.render('gitalk-container')
+  </script>
+```
+
+
+
 ### 添加封面
 
 _coverpage.md

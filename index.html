@@ -43,16 +43,16 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
-  const gitalk = new Gitalk({
-    clientID: '40e34717eba550d1ace1',
-    clientSecret: 'ae707266376091be268a74105a5946d00d0db424',
-    repo: 'Starky-Docsify',
-    owner: 'david990917',
-    admin: ['david990917'],
-    title: location.hash.match(/#(.*?)([?]|$)/)[1],
-    id: location.hash.match(/#(.*?)([?]|$)/)[1],
-    // facebook-like distraction free mode
-    distractionFreeMode: false
+  var gitalk = new Gitalk({
+      clientID: '40e34717eba550d1ace1',
+      clientSecret: 'ae707266376091be268a74105a5946d00d0db424',
+      repo: 'Starky-Docsify',
+      owner: 'david990917',
+      admin: ['david990917'],
+      title: location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
   })
   window.onhashchange = function(event){
       if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
