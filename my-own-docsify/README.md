@@ -212,3 +212,11 @@ window.$docsify = {
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 ```
 
+### 静态资源替换
+
+暂时没有操作，但是现在记录一下
+
+```html
+<link rel="stylesheet" href="static/css/theme-simple-dark.css">
+```
+
