@@ -10,5 +10,3 @@
 [Design](/my-own-docsify/)
 
 ![](_coverpage/cover.jpeg)
-
-![color](#C1E6C6)
