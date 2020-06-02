@@ -149,3 +149,13 @@ logo: '/_media/hanwen.PNG',
 name: 'hanwen',
 ```
 
+### Github Corner
+
+在预留好的 `repo` 位置填上你的 Github 或者 Github 仓库地址
+
+```html
+repo: 'https://github.com/david990917/Starky-Docsify'
+
+repo: 'https://github.com/david990917'
+```
+
