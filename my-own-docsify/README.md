@@ -287,3 +287,10 @@ window.$docsify = {
 ```
 
 ### Pagination - 分页导航
+
+```html
+<!-- Pagination -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+```
+
