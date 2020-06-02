@@ -295,3 +295,13 @@ window.$docsify = {
 ```
 
 详细配置信息请看[这里](https://github.com/imyelo/docsify-pagination#readme)
+
+### Google Analysis
+
+在谷歌分析中注册一个新的 **媒体资源**
+
+```html
+<!-- Google Analytics -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+```
+
