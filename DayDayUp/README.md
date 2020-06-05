@@ -2,6 +2,7 @@
 # DayDayUp
 
 > Starky 每日奋斗文档
+### [Day27-200605](DayDayUp/Day27-200605.md)
 ### [Day26-200604](DayDayUp/Day26-200604.md)
 ### [Day25-200603](DayDayUp/Day25-200603.md)
 ### [Day24-200602](DayDayUp/Day24-200602.md)
