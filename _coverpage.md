@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
 
-# 科技博客 
-# Starky's Tech Blog
+# 成长博客 
+# Starky's Growth Blog
 
 ### 刘瀚文 Liu Hanwen
 
