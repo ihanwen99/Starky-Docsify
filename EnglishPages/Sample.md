@@ -12,6 +12,6 @@
 
 **Expressions:** 
 
-- stumbled
+- 
 
-> Every programmer is an author — Sercan Leylek
+> 
